@@ -1,6 +1,6 @@
 [build]
-command = "npm run build"  # Adjust based on your build process
-publish = "build/"  # Adjust based on your build output folder
+command = "echo 'No build command needed'"  # No build command required for Flask
+publish = "path/to/your/flask/app/"  # Path to your Flask app directory
 
 [[redirects]]
 from = "/api/*"
