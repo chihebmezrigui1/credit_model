@@ -1,4 +1,4 @@
 [[redirects]]
 from="/*"
-to="app.py"
+to="templates/index.html"
 status=200
