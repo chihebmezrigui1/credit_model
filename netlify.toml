@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/predict"
-to = "/"
+to = "templates/index.html"
 status = 200
