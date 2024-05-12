@@ -1,0 +1,8 @@
+[build]
+command = "npm run build"  # Adjust based on your build process
+publish = "build/"  # Adjust based on your build output folder
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
