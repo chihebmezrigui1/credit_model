@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/predict"
-to = "templates/index.html"
-status = 200
+from="/*"
+to="templates/index.html"
+status=200
