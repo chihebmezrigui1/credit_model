@@ -8,16 +8,16 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
+        "src": "/style.css",
+        "dest": "/style.css"
       },
       {
         "src": "/",
-        "dest": "templates/index.html"
+        "dest": "/index.html"
       },
       {
         "src": "/(.*)",
-        "dest": "templates/index.html"  
+        "dest": "/index.html"
       }
     ]
   }
